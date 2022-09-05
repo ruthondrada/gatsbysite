@@ -14,5 +14,6 @@ const Homepage = () => {
   )
 };
 
+export const Head = () => <title> Home Page</title>
 //Step 3: Export
 export default Homepage;
