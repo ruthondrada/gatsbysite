@@ -1,18 +1,17 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
+import Layout from '../components/layout';
 
 //create component
 const About = () =>
 {
     return (
-        <>
-        <title>Ruth's web</title>
-        <h1> This is my about!</h1>
-        <Link to="/">Back to Home</Link>
-        <p>My name is Ruth! </p>
-        </>
+        <Layout pageTitle="About me">
+            <p> Hi There! I'm the proud creator of this site, which I built with Gatsby.</p>
+        </Layout>
+       
     )
-};
+}
 
 export const Head = () => <title> About Me</title>
 
