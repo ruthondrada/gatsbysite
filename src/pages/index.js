@@ -4,6 +4,7 @@ import * as React from 'react'; //import react
 import Layout from '../components/layout';
 //import plugin
 import { StaticImage } from 'gatsby-plugin-image';
+import Seo from '../components/seo';
 
 //Step 2: define component
 //capital letter in front for component name.
@@ -19,6 +20,6 @@ const Homepage = () => {
   )
 }
 
-export const Head = () => <title> Home Page</title>
+export const Head = () => <Seo title="Home Page" />
 //Step 3: Export
 export default Homepage;
