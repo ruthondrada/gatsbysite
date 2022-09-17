@@ -10,7 +10,7 @@ const BlogPage = ({data}) => {
             {
                 data.allMdx.nodes.map((node) => (
                     <article key={node.id}>
-                        <h2>{node.frontmatter.date}</h2>
+                        <h2>{node.frontmatter.title}</h2>
                         <p>Posted:  {node.frontmatter.date}</p>
                         <p>{node.excerpt}</p>
                     </article>
